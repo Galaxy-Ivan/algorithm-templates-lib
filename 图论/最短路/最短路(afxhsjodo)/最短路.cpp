@@ -30,7 +30,7 @@ void dijkstra(int s)
 	q.push({ 0,s });
 	while (q.size())
 	{
-		auto& [dis, u] = q.top();
+		auto [dis, u] = q.top();
 		q.pop();
 		if (st[u])continue;
 		st[u] = 1;
