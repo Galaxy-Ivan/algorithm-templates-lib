@@ -3,7 +3,7 @@
 using namespace std;
 
 // 模数有意默认为 0，迫使自己按题目设置模数
-const int P = 1e9 + 7;
+const int P = 0;
 using vi = vector<int>;
 using vvi = vector<vi>;
 
